@@ -1,0 +1,25 @@
+export interface betsInfo{
+    d:{
+        b:[
+            {
+                e:[
+                    {
+                        d:string,
+                        sh:string,
+                        o:[
+                            {
+                                d:string,
+                                sl:[
+                                    {
+                                        d:string,
+                                        r:string
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

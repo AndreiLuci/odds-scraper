@@ -1,0 +1,43 @@
+export interface basicInfo{
+   events:[
+    {
+        event:{
+            id:number,
+            name:string,
+            homeName:string,
+            awayName:string,
+            start:string
+        }
+    }
+   ]
+}
+
+export interface betsInfo{
+    bestOffers:[
+        {
+            id:number,
+            criterion:{
+                id:number,
+                label:string,
+                englishLabel:string,
+                lifetime:string
+            },
+            betOfferType:{
+                id:number,
+                name:string,
+                englishName:string
+            },
+            eventId:number,
+            outcomes:[
+                {
+                    id:number,
+                    label:string,
+                    englishLabel:string,
+                    odds:number
+                    status:string,
+                    cashOutStatus:string
+                }
+            ]
+        }
+    ]
+}
